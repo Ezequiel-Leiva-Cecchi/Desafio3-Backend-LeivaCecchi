@@ -8,41 +8,6 @@ export default class ProductManager {
         this.initializeProducts(); 
     }
 
-    // Método para agregar un producto.
-    addProduct = async (title, description, price, stock, code, image) => {
-        // Validar que todos los campos estén presentes.
-        if (!title || !description || !price || !stock || !code || !image) {
-            console.log("Todos los campos son obligatorios");
-            return;
-        }
-
-        // Validar que el código del producto sea único.
-        if (this.products.some(product => product.code === code)) {
-            console.log("Ya existe un producto con este código");
-            return;
-        }
-
-        // Incrementar el ID para obtener uno único.
-        this.id++;
-
-        // Crear un nuevo objeto de producto.
-        const newProduct = {
-            title,
-            description,
-            price,
-            stock,
-            code,
-            image,
-            id: this.id
-        };
-
-        // Agregar el nuevo producto a la lista.
-        this.products.push(newProduct);
-
-        // Escribir la lista de productos en el archivo.
-        await fs.writeFile(this.patch, JSON.stringify(this.products));
-    };
-
     // Método para inicializar productos.
     initializeProducts = async () => {
         try {
