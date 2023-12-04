@@ -5,7 +5,7 @@ export default class ProductManager {
         this.patch = "./products.txt";
         this.products = [];
         this.id = 0;
-        this.initializeProducts(); // Llamamos a esta función para inicializar productos al instanciar la clase.
+        this.initializeProducts(); 
     }
 
     // Método para agregar un producto.
