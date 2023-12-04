@@ -1,1 +1,9 @@
-[{"title":"producto prueba","description":"Este es un producto prueba","price":200,"stock":25,"code":"abc123","image":"Sin imagen","id":1}]
+[{"title":"Producto 1","description":"Descripción del Producto 1","price":20,"stock":30,"code":"abc123","image":"imagen1.jpg","id":1},           {"title":"Producto 2","description":"Descripción del Producto 2","price":25,"stock":20,"code":"def456","image":"imagen2.jpg","id":2},
+ {"title":"Producto 3","description":"Descripción del Producto 3","price":30,"stock":15,"code":"ghi789","image":"imagen3.jpg","id":3},
+ {"title":"Producto 4","description":"Descripción del Producto 4","price":15,"stock":40,"code":"jkl012","image":"imagen4.jpg","id":4},
+ {"title":"Producto 5","description":"Descripción del Producto 5","price":18,"stock":25,"code":"mno345","image":"imagen5.jpg","id":5},
+ {"title":"Producto 6","description":"Descripción del Producto 6","price":22,"stock":22,"code":"pqr678","image":"imagen6.jpg","id":6},
+ {"title":"Producto 7","description":"Descripción del Producto 7","price":28,"stock":18,"code":"stu901","image":"imagen7.jpg","id":7},
+ {"title":"Producto 8","description":"Descripción del Producto 8","price":33,"stock":12,"code":"vwx234","image":"imagen8.jpg","id":8},
+ {"title":"Producto 9","description":"Descripción del Producto 9","price":40,"stock":10,"code":"yz012","image":"imagen9.jpg","id":9},
+ {"title":"Producto 10","description":"Descripción del Producto 10","price":45,"stock":8,"code":"abc345","image":"imagen10.jpg","id":10}]

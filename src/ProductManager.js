@@ -60,6 +60,18 @@ export default class ProductManager {
         }
     };
 
+      // Método para obtener la lista completa de productos.
+      getAllProducts = async (limit) => {
+        try {
+            if (limit) {
+                return this.products.slice(0, limit);
+            } else {
+                return this.products;
+            }
+        } catch (error) {
+            throw new Error("Error al obtener la lista de productos: " + error.message);
+        }
+    };
     // Método para obtener un producto por su ID.
     getProductsById = async (id) => {
         // Obtener el producto con el ID proporcionado.
